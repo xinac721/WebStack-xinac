@@ -7,21 +7,20 @@
     <meta name="renderer" content="webkit">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title><?php $this->options->title(); ?></title>
-    <meta name="keywords" content="keywords">
-    <meta name="description" content="WebStack">
+    <meta name="keywords" content="<?php $this->options->title(); ?>">
+    <meta name="description" content="WebStack,<?php $this->options->title(); ?>">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/fonts/linecons/css/linecons.css'); ?>">
-    <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/fonts/fontawesome/css/font-awesome.min.css'); ?>">
+    <link rel="stylesheet" href="//s.xinac.net/static/font-awesome/v4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/bootstrap.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/xenon-core.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/xenon-components.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/xenon-skins.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/nav.css'); ?>">
-    <script src="<?php $this->options->themeUrl('assets/js/jquery-1.11.1.min.js'); ?>"></script>
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <script src="//s.xinac.net/static/jquery/v1.12.4/jquery.min.js"></script>
     <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="//s.xinac.net/static/html5shiv/v3.7.3/html5shiv.min.js"></script>
+    <script src="//s.xinac.net/static/respond/v1.4.2/respond.min.js"></script>
     <![endif]-->
     <?php $this->options->xinac_head(); ?>
 
