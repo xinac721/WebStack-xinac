@@ -34,9 +34,9 @@ function themeConfig($form)
 // 文章页面自定义字段
 function themeFields($layout)
 {
-    $url = new Typecho_Widget_Helper_Form_Element_Text('url', NULL, NULL, _t('跳转链接（*）'), _t('跳转链接URL（*）'));
-    $text = new Typecho_Widget_Helper_Form_Element_Text('text', NULL, NULL, _t('链接描述'), _t('链接描述内容'));
-    $logo = new Typecho_Widget_Helper_Form_Element_Text('logo', NULL, NULL, _t('链接logo'), _t('链接logo地址'));
+    $url = new Typecho_Widget_Helper_Form_Element_Text('url', NULL, NULL, _t('跳转链接（*）'), _t('（*）跳转链接URL'));
+    $text = new Typecho_Widget_Helper_Form_Element_Textarea('text', NULL, NULL, _t('链接描述'), _t('链接描述内容'));
+    $logo = new Typecho_Widget_Helper_Form_Element_Text('logo', NULL, NULL, _t('链接LOGO'), _t('链接logo地址'));
     $menu_logo = new Typecho_Widget_Helper_Form_Element_Text('menu_logo', NULL, NULL, _t('链接图标'), _t('仅独立页面设置有效，示例：fa fa-home'));
     $layout->addItem($url);
     $layout->addItem($text);

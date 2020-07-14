@@ -24,7 +24,7 @@ $this->need('header.php');
                 </a>
             </li>
             <li class="hover-line">
-                <a href="/">
+                <a href="/" title="首页">
                     <i class="fa fa-home"></i> 首页
                 </a>
             </li>
@@ -45,7 +45,7 @@ $this->need('header.php');
         </ul>
         <ul class="user-info-menu right-links list-inline list-unstyled">
             <li class="hidden-sm hidden-xs">
-                <a href="<?php $this->options->xinac_github(); ?>" target="_blank">
+                <a href="<?php $this->options->xinac_github(); ?>" target="_blank" title="GitHub">
                     <i class="fa-github"></i> GitHub
                 </a>
             </li>

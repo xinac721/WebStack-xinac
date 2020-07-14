@@ -4,11 +4,11 @@
         <header class="logo-env">
             <!-- logo -->
             <div class="logo">
-                <a href="<?php $this->options->siteUrl(); ?>" class="logo-expanded">
+                <a href="<?php $this->options->siteUrl(); ?>" class="logo-expanded" title="<?php $this->options->title(); ?>">
                     <img src="<?php $this->options->logo_large(); ?>" style="width: 100%; max-height: 60px;"
                          alt="<?php $this->options->title(); ?>"/>
                 </a>
-                <a href="<?php $this->options->siteUrl(); ?>" class="logo-collapsed">
+                <a href="<?php $this->options->siteUrl(); ?>" class="logo-collapsed" title="<?php $this->options->title(); ?>">
                     <img src="<?php $this->options->logo_small(); ?>" style="max-width: 40px; max-height: 40px;"
                          alt="<?php $this->options->title(); ?>"/>
                 </a>
@@ -30,7 +30,7 @@
                     <?php if (empty($children)) { ?>
                         <li>
                             <a href="<?php if ($this->is('index')): ?><?php else: ?>/<?php endif; ?>#<?php $categorys->name(); ?>"
-                               class="smooth">
+                               class="smooth" title="<?php $categorys->name(); ?>">
                                 <i class="fa fa-<?php $categorys->slug(); ?>"></i>
                                 <span class="title"><?php $categorys->name(); ?></span>
                             </a>
@@ -46,7 +46,7 @@
                                     <?php $child = $categorys->getCategory($mid); ?>
                                     <li>
                                         <a href="<?php if ($this->is('index')): ?><?php else: ?>/<?php endif; ?>#<?php echo $child['name']; ?>"
-                                           class="smooth"><?php echo $child['name']; ?></a>
+                                           class="smooth" title="<?php echo $child['name']; ?>"><?php echo $child['name']; ?></a>
                                     </li>
                                 <?php } ?>
                             </ul>

@@ -6,14 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="renderer" content="webkit">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title><?php $this->options->title(); ?>
-    </title>
+    <title><?php $this->options->title(); ?></title>
     <meta name="keywords" content="keywords">
     <meta name="description" content="WebStack">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/fonts/linecons/css/linecons.css'); ?>">
-    <link rel="stylesheet"
-          href="<?php $this->options->themeUrl('assets/css/fonts/fontawesome/css/font-awesome.min.css'); ?>">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/fonts/fontawesome/css/font-awesome.min.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/bootstrap.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/xenon-core.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/xenon-components.css'); ?>">
