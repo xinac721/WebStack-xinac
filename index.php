@@ -76,7 +76,7 @@ $this->need('header.php');
                                 <?php endif; ?>
                             </a>
                             <div class="xe-comment">
-                                <a href="<?php echo $posts->fields->url; ?>" class="xe-user-name overflowClip_1">
+                                <a href="javascript:;" class="xe-user-name overflowClip_1">
                                     <strong><?php $posts->title(); ?></strong>
                                 </a>
                                 <p class="overflowClip_2">
