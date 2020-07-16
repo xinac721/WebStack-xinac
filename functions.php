@@ -15,7 +15,7 @@ function themeConfig($form)
     $form->addInput($xinac_github);
 
     // 备案
-    $xinac_beian = new Typecho_Widget_Helper_Form_Element_Text('xinac_beian', NULL, 'ICP备123456号', _t('备案号'), _t('备案号'));
+    $xinac_beian = new Typecho_Widget_Helper_Form_Element_Text('xinac_beian', NULL, 'ICP备123456号', _t('ICP备案号'), _t('ICP备案号'));
     $form->addInput($xinac_beian);
 
     // 版权
